@@ -37,7 +37,6 @@ end
   def self.artists
     @@artists.uniq!
   end
-end
 
 def self.artist_count
   @@artist_count_hash = {}
