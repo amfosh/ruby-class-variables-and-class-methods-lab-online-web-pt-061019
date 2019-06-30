@@ -33,8 +33,6 @@ class Song
   @@g_hash
 end
       
-    
   def self.artists
     @@artists.uniq!
   end
-end
