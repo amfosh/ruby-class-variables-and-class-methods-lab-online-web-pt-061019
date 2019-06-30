@@ -23,4 +23,3 @@ class Song
   end
   new_array
 end
-end
