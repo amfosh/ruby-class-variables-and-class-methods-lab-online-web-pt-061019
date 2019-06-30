@@ -25,7 +25,8 @@ class Song
   def self.genre_count
     @@g_hash = {}
     if @@g_hash.has_key?(genre)
-      @@g_hash
+      @@g_hash[genre] += 1 
+      
     
   def self.artists
     @@artists.uniq!
