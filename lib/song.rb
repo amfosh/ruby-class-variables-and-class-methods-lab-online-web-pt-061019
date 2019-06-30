@@ -28,6 +28,10 @@ class Song
       @@g_hash[genre] += 1 
     else
       @@g_hash[genre] = 1 
+    end
+  end
+  @@g_hash
+end
       
     
   def self.artists
